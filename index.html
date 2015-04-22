@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="pagina" >   
+  <div data-role="header">
+    <h1>Aplicacion04</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div data-role="controlgroup" data-type="vertical" align="center">
+    <a href="#pagina2" class="ui-btn ui-icon-bars ui-btn-icon-right ">Intro</a>
+    <a href="#pagina3" class="ui-btn ui-icon-camera ui-btn-icon-right ">Imagenes</a>
+   </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@MariaFernandaMartinezMontaño</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+ 
+ <!--Principal2-->
+  <div data-role="page" id="pagina2">
+    <div data-role="header">
+    <h1>Aplicacion04</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-collasepd-icon="plus" data-expanded-icon="minus" data-iconpos="right">
+     <h1>click aqui</h1>
+     <p> Mi nombre es Fernanda me gusta escuchar musica, bailar, leer, dormir y salir a divertirme un rato. </p>
+     <div align="right">
+      <img src="fer.jpg" height="300px" width="250px">
+      </div>
+     </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@MariaFernandaMartinezMontaño</h1>
+  </div>
+  </div>
+  <!--Principal2-->
+  
+  
+  
+  
+  <!-- Principa3 -->
+ <div data-role="page" id="pagina3" >   
+  <div data-role="header">
+    <h1>Aplicacion04</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <a href="#foto_uno" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/fotos/1.jpg" style="width:15%">
+    </a>
+     <a href="#foto_dos" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/fotos/2.jpg" style="width:15%">
+    </a>
+     <a href="#foto_tres" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/fotos/3.jpg" style="width:15%">
+    </a>
+   </div>
+   <div data-role="popup" id="foto_uno" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"> cerrar </a>
+    <img src="images/fotos/1.jpg" style="max-height:500px">
+   </div> 
+   
+    <div data-role="popup" id="foto_dos" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"> cerrar </a>
+    <img src="images/fotos/2.jpg" style="max-height:500px">
+   </div> 
+   
+   <div data-role="popup" id="foto_tres" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"> cerrar </a>
+    <img src="images/fotos/3.jpg" style="max-height:500px">
+   </div> 
+    
+  </div> 
+ 
+  <div data-role="footer">
+    <h1>@MariaFernandaMartinezMontaño</h1>
+  </div>
+ </div>  
+  <!-- Principa3 -->
+ </body>
+</html> 
